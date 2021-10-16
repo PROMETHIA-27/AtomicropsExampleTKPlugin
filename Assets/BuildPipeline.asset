@@ -17,29 +17,8 @@ MonoBehaviour:
   - {fileID: 114606233599067102}
   - {fileID: 114998381686000480}
   - {fileID: 114604052046346088}
-  - {fileID: 114123619953484572}
   - {fileID: 114368118591885904}
   manifest: {fileID: 11400000, guid: f7a207d0f2667ff4589bc4d4e6b8d164, type: 2}
---- !u!114 &114123619953484572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 924ee63e6c016f14d8a1560b288f15a3, type: 3}
-  m_Name: StageAssetBundles
-  m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  Active: 1
-  AssetBundleBuildOptions: 1
-  buildTarget: 5
-  recurseDirectories: 0
-  simulate: 0
-  BundleArtifactPath: <AssetBundleStaging>
 --- !u!114 &114368118591885904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,8 +66,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5b20fac9c71fd64183cb7a8f359d73a, type: 3}
   m_Name: StageAssemblies
   m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
+  Errored: 1
+  ErrorMessage: 'Win32 IO returned 1224. Path: Library\ScriptAssemblies\ExampleProject.dll"
+    or "C:/Program Files (x86)/Steam/steamapps/common/Atomicrops/BepInEx/plugins\ExampleProject.dll'
   Active: 1
   stageDebugDatabases: 0
   preferPlayerBuilds: 0

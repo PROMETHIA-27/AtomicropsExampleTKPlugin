@@ -36,7 +36,7 @@ MonoBehaviour:
   - <StagingRoot>
   Author: Promethia
   Name: ExampleTKPlugin
-  Icon: {fileID: 0}
+  Icon: {fileID: 2800000, guid: a5ae945ebe1a7ea468c4738707aa3a49, type: 3}
   Description: Example Thunderkit Plugin
   Version: 1.0.0
   Dependencies: []
