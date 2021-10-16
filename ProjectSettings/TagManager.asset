@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PixelCamera
+  - Crop
+  - Debug
+  - Farm
+  - DebugOVERRIDE
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - AgentWallOnly
+  - LevelWall
+  - Damage
+  - PlayerTriggers
+  - PlayerTriggerTripper
+  - InGameSelectable
+  - InGameSelectableToucher
+  - CropToucher
+  - None
+  - Crop
+  - DamageDealer
+  - DamageAndWallOnly
+  - LevelBulletOnly
+  - PlayerOnlyWall
+  - DamagePlayer
+  - Friend
+  - Debug
+  - AgentPushout
+  - PostProc
+  - LevelHole
+  - Background
+  - BridgeInvisWall
+  - LevelNoFly
+  - LevelPlayerOnly
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2507692161
+    locked: 0
+  - name: Ground
+    uniqueID: 3260621027
+    locked: 0
+  - name: GroundSplats
+    uniqueID: 694813575
+    locked: 0
+  - name: GroundSoil
+    uniqueID: 4035093891
+    locked: 0
+  - name: Shadow
+    uniqueID: 4097626307
+    locked: 0
+  - name: GroundCorpse
+    uniqueID: 2289050357
+    locked: 0
+  - name: Walls
+    uniqueID: 3626799601
+    locked: 0
+  - name: Objects
+    uniqueID: 3450589153
+    locked: 0
+  - name: Roofs
+    uniqueID: 3186230635
+    locked: 0
+  - name: XRayObj
+    uniqueID: 3401072631
+    locked: 0
+  - name: PlayerBullets
+    uniqueID: 948201843
+    locked: 0
+  - name: BloodFx
+    uniqueID: 176468781
+    locked: 0
+  - name: HitFx
+    uniqueID: 3273362579
+    locked: 0
+  - name: PlayerBullets
+    uniqueID: 401082089
+    locked: 0
+  - name: EnemyBullets
+    uniqueID: 2765094717
+    locked: 0
+  - name: Ui
+    uniqueID: 3005104211
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
