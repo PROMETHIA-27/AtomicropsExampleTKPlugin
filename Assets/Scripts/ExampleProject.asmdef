@@ -15,8 +15,5 @@
         "BepInEx.Unity.dll"
     ],
     "autoReferenced": true,
-    "defineConstraints": [
-        "atomicrops",
-        "bepinexpackage-bepinexpack"
-    ]
+    "defineConstraints": []
 }
