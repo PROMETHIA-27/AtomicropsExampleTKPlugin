@@ -343,10 +343,10 @@
  <HintPath>C:/Assets/Mods/Atomicrops/AssetProject/Thunderkit Assets/Assets/Plugins/NGTools/NGCore/Editor/NGLicenses.dll</HintPath>
  </Reference>
  <Reference Include="Markdig.Signed">
- <HintPath>C:/Assets/Mods/Atomicrops/AssetProject/Thunderkit Assets/Library/PackageCache/com.passivepicasso.thunderkit@79eef0a0d0f7b651a1509e1504e763a1cffa05b0/Editor/ThirdParty/Markdig/Markdig.Signed.dll</HintPath>
+ <HintPath>C:/Assets/Mods/Atomicrops/AssetProject/Thunderkit Assets/Library/PackageCache/com.passivepicasso.thunderkit@05ae02e903e72f8904a49fa347896e0139141a7b/Editor/ThirdParty/Markdig/Markdig.Signed.dll</HintPath>
  </Reference>
  <Reference Include="SharpCompress">
- <HintPath>C:/Assets/Mods/Atomicrops/AssetProject/Thunderkit Assets/Library/PackageCache/com.passivepicasso.thunderkit@79eef0a0d0f7b651a1509e1504e763a1cffa05b0/Editor/ThirdParty/SharpCompress/SharpCompress.dll</HintPath>
+ <HintPath>C:/Assets/Mods/Atomicrops/AssetProject/Thunderkit Assets/Library/PackageCache/com.passivepicasso.thunderkit@05ae02e903e72f8904a49fa347896e0139141a7b/Editor/ThirdParty/SharpCompress/SharpCompress.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Assets/Mods/Atomicrops/AssetProject/Thunderkit Assets/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
