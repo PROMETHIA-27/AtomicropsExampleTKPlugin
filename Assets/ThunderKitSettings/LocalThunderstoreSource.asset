@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5888ac13fa454b64fa9fba76166e34ea, type: 3}
+  m_Name: LocalThunderstoreSource
+  m_EditorClassIdentifier: 
+  Packages:
+  - {fileID: 114257816405614470}
+  LocalRepositoryPath: ThunderKit/BepInEx Local Store/PackageCache
+--- !u!114 &114144172113390524
+MonoBehaviour:
+  m_ObjectHideFlags: 9
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a728491a95ad42a7ff3ee6e35e430, type: 3}
+  m_Name: BepInExPackage
+  m_EditorClassIdentifier: 
+  version: 1.0.0
+  dependencyId: BepInExPackage
+  group: {fileID: 114257816405614470}
+  dependencies: []
+--- !u!114 &114257816405614470
+MonoBehaviour:
+  m_ObjectHideFlags: 9
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8992d2da66df46a488eb7fb4d66fc814, type: 3}
+  m_Name: BepInExPack
+  m_EditorClassIdentifier: 
+  PackageName: BepInExPack
+  Author: BepInExPackage
+  Description: Unified BepInEx all-in-one pack - plugin framework, detour library
+  DependencyId: BepInExPackage-BepInExPack
+  Tags: []
+  Source: {fileID: 11400000}
+  Versions:
+  - {fileID: 114144172113390524}
+--- !u!114 &114554973731086756
+MonoBehaviour:
+  m_ObjectHideFlags: 9
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a728491a95ad42a7ff3ee6e35e430, type: 3}
+  m_Name: BepInExPackage
+  m_EditorClassIdentifier: 
+  version: 1.0.0
+  dependencyId: BepInExPackage
+  group: {fileID: 0}
+  dependencies: []
+--- !u!114 &114872252255572870
+MonoBehaviour:
+  m_ObjectHideFlags: 9
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a728491a95ad42a7ff3ee6e35e430, type: 3}
+  m_Name: BepInExPackage
+  m_EditorClassIdentifier: 
+  version: 1.0.0
+  dependencyId: BepInExPackage
+  group: {fileID: 0}
+  dependencies: []

@@ -1,0 +1,22 @@
+{
+    "name": "AtomicropsThunderKitTemplate",
+    "references": [],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "0Harmony.dll",
+        "BepInEx.Core.dll",
+        "BepInEx.Preloader.Core.dll",
+        "BepInEx.Preloader.Unity.dll",
+        "BepInEx.Unity.dll",
+        "Assembly-CSharp.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "atomicrops",
+        "bepinexpackage-bepinexpack"
+    ]
+}

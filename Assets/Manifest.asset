@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: Manifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 114158264140757094}
+  - {fileID: 114612165935488824}
+  - {fileID: 114806635490960900}
+  - {fileID: 114660531497903666}
+  identity: {fileID: 114158264140757094}
+--- !u!114 &114158264140757094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  Errored: 0
+  ErrorMessage: 
+  ErrorStacktrace: 
+  StagingPaths:
+  - <StagingRoot>
+  Author: PROMETHIA
+  Name: Atomicrops ThunderKit Template
+  Description: An example plugin project in ThunderKit for Atomicrops
+  Version: 1.0.0
+  Dependencies:
+  - {fileID: 11400000, guid: f70848604d1559fe798a5a9b24a0b162, type: 2}
+--- !u!114 &114612165935488824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  Errored: 0
+  ErrorMessage: 
+  ErrorStacktrace: 
+  StagingPaths:
+  - <StagingRoot>
+  definitions:
+  - {fileID: 5897886265953266890, guid: afef4d0c0581b8e438e91dc3ce7fffb8, type: 3}
+--- !u!114 &114660531497903666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  Errored: 0
+  ErrorMessage: 
+  ErrorStacktrace: 
+  StagingPaths:
+  - <StagingRoot>
+  files:
+  - {fileID: 2800000, guid: d184c2169fa4bef4285fcd36b123ab8d, type: 3}
+  - {fileID: 4900000, guid: c4668bb554954ef45a77c8c266bcfe1f, type: 3}
+--- !u!114 &114806635490960900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a82fec78ebc734d9ad1346cd40b5f9, type: 3}
+  m_Name: ThunderstoreData
+  m_EditorClassIdentifier: 
+  Errored: 0
+  ErrorMessage: 
+  ErrorStacktrace: 
+  StagingPaths:
+  - <StagingRoot>
+  url: 
