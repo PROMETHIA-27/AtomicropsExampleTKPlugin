@@ -2,22 +2,18 @@
 A template for making Atomicrops mods using ThunderKit.
 
 ## Prerequisites
-* Install bepinex to to your game folder by following the instructions here (Atomicrops is **32-bit**): https://docs.bepinex.dev/articles/user_guide/installation/index.html
-
-*The game will most likely crash when running for the first time. This is normal. It is also possible for it to not. It is recommended to restart after the initial run regardless.*
-
 * Install Unity 2018.4.27. This can be found here: https://unity3d.com/get-unity/download/archive
 
 ## How to set up
 1. Download the repo, either by using git clone or downloading as .zip and extracting.
-2. Open the repo, and wait until the thunderkit settings menu pops up. Enter atomicrops.exe and the path of the folder that contains atomicrops.exe into the appropriate fields, and then click the "Locate Game" button (If you don't enter an executable/path, a file explorer dialog will pop up to select it).
-3. Once the game is done being located, go to the toolbar at the top, navigate to Tools>ThunderKit>Packages. Under LocalThunderstoreSource, select BepInEx Pack and click install in the top right.
-4. Select the Pipeline asset in the root Assets folder, and in the inspector click Execute. 
+2. Open the repo, and wait until the thunderkit settings menu pops up. Either enter atomicrops.exe and the path of the folder that contains atomicrops.exe into the appropriate fields, or just click the "Locate Game" button (If you don't enter an executable/path, a file explorer dialog will pop up to select it).
+3. Once the game is done being located, go to the toolbar at the top, navigate to Tools>ThunderKit>Packages. Under LocalThunderstoreSource, select BepInExPack and click install in the top right.
+4. Select the Rebuild And Launch Pipeline asset in the root Assets folder, and in the inspector click Execute. 
 
 ## Usage
-After following these steps, under the root folder of the unity project, there should be a ThunderKit folder. Under there, there should be a Staging folder. In that folder will be a .dll, a readme, an icon, a manifest, and a .zip. The .zip is a publish-ready zip archive for ThunderStore. If you move the .dll to the BepInEx/plugins folder in your atomicrops directory, when you launch the game there should be a LogInfo message in the console/log from the mod. 
+To make your own mod, simply edit plugin.cs and, if necessary, add additional scripts (**All scripts must be in a folder with a properly configured asmdef!!!**)to modify whatever you want in the game. Many mods can be extremely simple, because most of the game's state is stored in singleton scriptableobjects, accessible via "SingletonScriptableObject<T\>.I" under the SharedLib namespace. For example, you can modify the default gun to be squirrels with the line "ConfigGame.I.Guns.DefaultGun = ConfigGame.I.Guns.SquirrelGun;". This will prevent that gun from being upgraded, however, without a harmony patch of some form on the appropriate method.
 
-To make your own mod, simply edit plugin.cs and, if necessary, add additional scripts to modify whatever you want in the game. Many mods can be extremely simple, because most of the game's state is stored in singleton scriptableobjects, accessible via "SingletonScriptableObject<T\>.I" under the SharedLib namespace. For example, you can modify the default gun to be squirrels with the line "ConfigGame.I.Guns.DefaultGun = ConfigGame.I.Guns.SquirrelGun;". This will prevent that gun from being upgraded, however, without a harmony patch of some form on the appropriate method.
+To configure an asmdef properly, check override references and add the references that the template asmdef has. You may optionally copy the constraints from the template asmdef as well.
   
 ## Recommended Tools:
 * dnSpy (.Net Decompilation): https://github.com/dnSpy/dnSpy
