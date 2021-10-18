@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LocalThunderstoreSource
   m_EditorClassIdentifier: 
   Packages:
-  - {fileID: 114257816405614470}
+  - {fileID: 114166291297692226}
   LocalRepositoryPath: ThunderKit/BepInEx Local Store/PackageCache
 --- !u!114 &114144172113390524
 MonoBehaviour:
@@ -29,9 +29,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1.0.0
   dependencyId: BepInExPackage
-  group: {fileID: 114257816405614470}
+  group: {fileID: 0}
   dependencies: []
---- !u!114 &114257816405614470
+--- !u!114 &114166291297692226
 MonoBehaviour:
   m_ObjectHideFlags: 9
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50,7 +50,7 @@ MonoBehaviour:
   Tags: []
   Source: {fileID: 11400000}
   Versions:
-  - {fileID: 114144172113390524}
+  - {fileID: 114647462339267514}
 --- !u!114 &114554973731086756
 MonoBehaviour:
   m_ObjectHideFlags: 9
@@ -66,6 +66,22 @@ MonoBehaviour:
   version: 1.0.0
   dependencyId: BepInExPackage
   group: {fileID: 0}
+  dependencies: []
+--- !u!114 &114647462339267514
+MonoBehaviour:
+  m_ObjectHideFlags: 9
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a728491a95ad42a7ff3ee6e35e430, type: 3}
+  m_Name: BepInExPackage
+  m_EditorClassIdentifier: 
+  version: 1.0.0
+  dependencyId: BepInExPackage
+  group: {fileID: 114166291297692226}
   dependencies: []
 --- !u!114 &114872252255572870
 MonoBehaviour:
