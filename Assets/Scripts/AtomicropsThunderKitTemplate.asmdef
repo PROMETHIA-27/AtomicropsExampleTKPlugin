@@ -17,6 +17,6 @@
     "autoReferenced": true,
     "defineConstraints": [
         "atomicrops",
-        "bepinexpackage-bepinexpack"
+        "bepinexpack-bepinexpack"
     ]
 }

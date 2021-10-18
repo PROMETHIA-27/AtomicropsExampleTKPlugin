@@ -15,8 +15,6 @@ MonoBehaviour:
   Data:
   - {fileID: 114158264140757094}
   - {fileID: 114612165935488824}
-  - {fileID: 114806635490960900}
-  - {fileID: 114660531497903666}
   identity: {fileID: 114158264140757094}
 --- !u!114 &114158264140757094
 MonoBehaviour:
@@ -34,13 +32,13 @@ MonoBehaviour:
   ErrorMessage: 
   ErrorStacktrace: 
   StagingPaths:
-  - <StagingRoot>
+  - <ManifestPluginStaging>
   Author: PROMETHIA
   Name: Atomicrops ThunderKit Template
   Description: An example plugin project in ThunderKit for Atomicrops
   Version: 1.0.0
   Dependencies:
-  - {fileID: 11400000, guid: f70848604d1559fe798a5a9b24a0b162, type: 2}
+  - {fileID: 11400000, guid: 247d740550d03eccedf24219612b56dd, type: 2}
 --- !u!114 &114612165935488824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,44 +55,6 @@ MonoBehaviour:
   ErrorMessage: 
   ErrorStacktrace: 
   StagingPaths:
-  - <StagingRoot>
+  - <ManifestPluginStaging>
   definitions:
   - {fileID: 5897886265953266890, guid: afef4d0c0581b8e438e91dc3ce7fffb8, type: 3}
---- !u!114 &114660531497903666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
-  m_Name: Files
-  m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
-  StagingPaths:
-  - <StagingRoot>
-  files:
-  - {fileID: 2800000, guid: d184c2169fa4bef4285fcd36b123ab8d, type: 3}
-  - {fileID: 4900000, guid: c4668bb554954ef45a77c8c266bcfe1f, type: 3}
---- !u!114 &114806635490960900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a82fec78ebc734d9ad1346cd40b5f9, type: 3}
-  m_Name: ThunderstoreData
-  m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
-  StagingPaths:
-  - <StagingRoot>
-  url: 

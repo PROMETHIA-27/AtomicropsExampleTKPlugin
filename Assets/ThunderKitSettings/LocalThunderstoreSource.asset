@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LocalThunderstoreSource
   m_EditorClassIdentifier: 
   Packages:
-  - {fileID: 114579275185871766}
+  - {fileID: 114997870343676114}
   LocalRepositoryPath: ThunderKit/BepInEx Local Store/PackageCache
 --- !u!114 &114098032715694914
 MonoBehaviour:
@@ -47,6 +47,22 @@ MonoBehaviour:
   dependencyId: BepInExPackage
   group: {fileID: 0}
   dependencies: []
+--- !u!114 &114347503235764810
+MonoBehaviour:
+  m_ObjectHideFlags: 9
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a728491a95ad42a7ff3ee6e35e430, type: 3}
+  m_Name: BepInExPack
+  m_EditorClassIdentifier: 
+  version: 1.0.0
+  dependencyId: BepInExPack
+  group: {fileID: 114997870343676114}
+  dependencies: []
 --- !u!114 &114494586257118420
 MonoBehaviour:
   m_ObjectHideFlags: 9
@@ -79,26 +95,6 @@ MonoBehaviour:
   dependencyId: BepInExPackage
   group: {fileID: 0}
   dependencies: []
---- !u!114 &114579275185871766
-MonoBehaviour:
-  m_ObjectHideFlags: 9
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8992d2da66df46a488eb7fb4d66fc814, type: 3}
-  m_Name: BepInExPack
-  m_EditorClassIdentifier: 
-  PackageName: BepInExPack
-  Author: BepInExPack
-  Description: Unified BepInEx all-in-one pack - plugin framework, detour library
-  DependencyId: BepInExPack-BepInExPack
-  Tags: []
-  Source: {fileID: 11400000}
-  Versions:
-  - {fileID: 114740207887978356}
 --- !u!114 &114647462339267514
 MonoBehaviour:
   m_ObjectHideFlags: 9
@@ -129,7 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1.0.0
   dependencyId: BepInExPack
-  group: {fileID: 114579275185871766}
+  group: {fileID: 0}
   dependencies: []
 --- !u!114 &114792587760633648
 MonoBehaviour:
@@ -195,3 +191,23 @@ MonoBehaviour:
   dependencyId: BepInExPackage
   group: {fileID: 0}
   dependencies: []
+--- !u!114 &114997870343676114
+MonoBehaviour:
+  m_ObjectHideFlags: 9
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8992d2da66df46a488eb7fb4d66fc814, type: 3}
+  m_Name: BepInExPack
+  m_EditorClassIdentifier: 
+  PackageName: BepInExPack
+  Author: BepInExPack
+  Description: Unified BepInEx all-in-one pack - plugin framework, detour library
+  DependencyId: BepInExPack-BepInExPack
+  Tags: []
+  Source: {fileID: 11400000}
+  Versions:
+  - {fileID: 114347503235764810}
