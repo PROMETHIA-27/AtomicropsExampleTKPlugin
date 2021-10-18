@@ -39,8 +39,7 @@ MonoBehaviour:
   Name: Atomicrops ThunderKit Template
   Description: An example plugin project in ThunderKit for Atomicrops
   Version: 1.0.0
-  Dependencies:
-  - {fileID: 11400000, guid: f70848604d1559fe798a5a9b24a0b162, type: 2}
+  Dependencies: []
 --- !u!114 &114612165935488824
 MonoBehaviour:
   m_ObjectHideFlags: 0
