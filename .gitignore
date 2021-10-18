@@ -6,6 +6,8 @@ ProjectSettings
 
 Temp
 
+obj
+
 *.sln
 
 *.csproj
