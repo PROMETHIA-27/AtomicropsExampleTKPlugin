@@ -9,7 +9,7 @@ A template for making Atomicrops mods using ThunderKit.
 * Install Unity 2018.4.27. This can be found here: https://unity3d.com/get-unity/download/archive
 
 ## How to set up
-1. Download the repo, either by using git clone or downloading as .zip and extracting
+1. Download the repo, either by using git clone or downloading as .zip and extracting.
 2. Open the repo, and wait until the thunderkit settings menu pops up. Enter atomicrops.exe and the path of the folder that contains atomicrops.exe into the appropriate fields, and then click the "Locate Game" button.
 3. Once the game is done being located, go to the toolbar at the top, navigate to Tools>ThunderKit>Packages. Under LocalThunderstoreSource, select BepInEx Pack and click install in the top right.
 4. Select the Pipeline asset in the root Assets folder, and in the inspector click Execute. 
