@@ -5,3 +5,9 @@ Logs
 ProjectSettings
 
 Temp
+
+*.sln
+
+*.csproj
+
+.vs
