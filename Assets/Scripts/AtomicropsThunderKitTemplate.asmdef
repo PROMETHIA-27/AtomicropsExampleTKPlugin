@@ -8,11 +8,12 @@
     "overrideReferences": true,
     "precompiledReferences": [
         "0Harmony.dll",
-        "BepInEx.Core.dll",
-        "BepInEx.Preloader.Core.dll",
-        "BepInEx.Preloader.Unity.dll",
-        "BepInEx.Unity.dll",
-        "Assembly-CSharp.dll"
+        "Assembly-CSharp.dll",
+        "BepInEx.dll",
+        "BepInEx.Harmony.dll",
+        "BepInEx.Preloader.dll",
+        "0Harmony20.dll",
+        "HarmonyXInterop.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [
