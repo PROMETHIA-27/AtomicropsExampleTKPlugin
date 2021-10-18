@@ -17,9 +17,7 @@ A template for making Atomicrops mods using ThunderKit.
 ## Usage
 After following these steps, under the root folder of the unity project, there should be a ThunderKit folder. Under there, there should be a Staging folder. In that folder will be a .dll, a readme, an icon, a manifest, and a .zip. The .zip is a publish-ready zip archive for ThunderStore. If you move the .dll to the BepInEx/plugins folder in your atomicrops directory, when you launch the game there should be a LogInfo message in the console/log from the mod. 
 
-To make your own mod, simply edit plugin.cs and, if necessary, add additional scripts to modify whatever you want in the game. Many mods can be extremely simple, because most of the game's state is stored in singleton scriptableobjects, accessible via "SingletonScriptbleObject<T\>.I" under the SharedLib namespace. For example, you can
-modify the default gun to be squirrels with the line "ConfigGame.I.Guns.DefaultGun = ConfigGame.I.Guns.SquirrelGun;". This will prevent that gun from being upgraded,
-however, without a harmony patch of some form in the appropriate script.
+To make your own mod, simply edit plugin.cs and, if necessary, add additional scripts to modify whatever you want in the game. Many mods can be extremely simple, because most of the game's state is stored in singleton scriptableobjects, accessible via "SingletonScriptableObject<T\>.I" under the SharedLib namespace. For example, you can modify the default gun to be squirrels with the line "ConfigGame.I.Guns.DefaultGun = ConfigGame.I.Guns.SquirrelGun;". This will prevent that gun from being upgraded, however, without a harmony patch of some form in the appropriate script.
   
 ## Recommended Tools:
 * dnSpy (.Net Decompilation): https://github.com/dnSpy/dnSpy
