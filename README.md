@@ -4,6 +4,8 @@ A template for making Atomicrops mods using ThunderKit.
 ## Prerequisites
 * Install bepinex to to your game folder by following the instructions here (Atomicrops is **32-bit**): https://docs.bepinex.dev/articles/user_guide/installation/index.html
 
+*This is technically optional if you want to only create mods. The BepInExLaunch pipeline in the assets folder can launch the game with BepInEx and your plugin. 
+
 *The game will most likely crash when running for the first time. This is normal. It is also possible for it to not. It is recommended to restart after the initial run regardless.*
 
 * Install Unity 2018.4.27. This can be found here: https://unity3d.com/get-unity/download/archive
