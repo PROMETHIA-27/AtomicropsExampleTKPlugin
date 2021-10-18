@@ -22,7 +22,7 @@ To make your own mod, simply edit plugin.cs and, if necessary, add additional sc
 ## Recommended Tools:
 * dnSpy (.Net Decompilation): https://github.com/dnSpy/dnSpy
 
-You can use dnSpy on Assembly-CSharp under Atomicrops/Atomicrops_Data/Managed/ to view the disassembly of the game's code. This allows you to get a more-or-less clear picture of what's going on, with some weirdness from the decompiler attempting to interpret IL code as C# (or directly as IL, or VB, or F# if you really felt like it). 
+You can use dnSpy on Assembly-CSharp.dll under Atomicrops/Atomicrops_Data/Managed/ to view the disassembly of the game's code. This allows you to get a more-or-less clear picture of what's going on, with some weirdness from the decompiler attempting to interpret IL code as C# (or directly as IL, or VB, or F# if you really felt like it). 
 
 * GameImporter: Tools>ThunderKit>Packages>ThunderKit Extensions>GameImporter
 
